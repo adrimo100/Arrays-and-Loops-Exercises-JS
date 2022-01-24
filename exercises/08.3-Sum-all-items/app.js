@@ -4,5 +4,10 @@ function sumTheElements(theArray){
 	
 	//your code here
 
+	for(let i = 0; i < theArray.length; i++){
+		total += theArray[i];
+	}
+
 	return total;
+
 }
